@@ -1,27 +1,24 @@
-
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
 .container {
-    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
     padding: 20px;
+    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
 }
 
-#location, #weather, #moon, #season, #sabbat {
-    margin-bottom: 10px;
+p {
+    font-size: 18px;
 }
-
